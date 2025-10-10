@@ -1,23 +1,71 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+    font-family: "ROBOTO";
     box-sizing: border-box;
+
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
+
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     gap: 30px;
     list-style: none;
     font-size: 20px;
+
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
+
+    color: #000;
 }
-header nav a:hover{
-    background: #000;
+
+header nav a:hover {
+    padding: 6px;
+    background: #eeff00;
+    color: #000;
+}
+
+#div_banner {
+    height: 400px;
+
+}
+
+#img_banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "ROBOTO";
+    src: url(../Fontes/Roboto-Regular.ttf);
+}
+
+#section_lugares h2 {
+    text-align: center;
+    font-size: 2rem;
 }
 
 
+#div_lugares {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* margin-left: 5rem; */
+    justify-content: center;
+}
 
+#div_lugares img {
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+ 
+#div_lugares img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
