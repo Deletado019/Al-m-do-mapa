@@ -69,3 +69,25 @@ header nav a:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+#Informaçoes_gerais ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.cor-laranja{
+    color: orangered;
+}
+#sobre{
+
+}
+#Sobre h2{
+    color: orangered ;
+    
+}
+.centralizar{
+    text-align: center;
+}
+.justificar{
+    text-align: justify;
+}
