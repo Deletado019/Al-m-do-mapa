@@ -1,7 +1,7 @@
 * {
     font-family: "ROBOTO";
     box-sizing: border-box;
-
+        
 }
 
 header {
@@ -79,7 +79,7 @@ header nav a:hover {
     color: orangered;
 }
 #sobre{
-
+    
 }
 #Sobre h2{
     color: orangered ;
@@ -87,7 +87,46 @@ header nav a:hover {
 }
 .centralizar{
     text-align: center;
+
 }
 .justificar{
     text-align: justify;
+ 
+}
+#Lugares-visitar{
+    font-size: 1.5rem;
+}
+#Lugares-visitar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 2rem;
+   
+    margin: 0 auto;
+
+}
+#Lugares-visitar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    
+}   
+section:nth-of-type(n+2){
+    margin-top: 10vh;
+}
+#Container{
+    width: 80vw;
+    margin: 0 auto;
+}
+#Punta-Cana img{
+    width: 60vw;
+    height: 60vh;
+    
+  
+}
+#Punta-Cana Div{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    
 }
