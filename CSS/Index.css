@@ -126,7 +126,22 @@ section:nth-of-type(n+2){
 }
 #Punta-Cana Div{
     display: flex;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+    line-height: 1.8;
+    text-align: justify;
+}
+#Aruba img{
+      width: 60vw;
+    height: 60vh;
+    margin: 2.5vw;
     
+}
+#Aruba{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: justify;
+    gap: 30px  ;
 }
