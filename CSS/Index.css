@@ -119,10 +119,11 @@ section:nth-of-type(n+2){
     margin: 0 auto;
 }
 #Punta-Cana img{
-    width: 60vw;
-    height: 60vh;
-    
-  
+   
+}
+#Punta-Cana p{
+    width: 100%;
+
 }
 #Punta-Cana Div{
     display: flex;
@@ -132,10 +133,10 @@ section:nth-of-type(n+2){
     text-align: justify;
 }
 #Aruba img{
-      width: 60vw;
-    height: 60vh;
+      width: 75vw;
+    height: 75vh;
     margin: 2.5vw;
-    
+    border-radius: 20px;
 }
 #Aruba{
     display: flex;
@@ -143,5 +144,58 @@ section:nth-of-type(n+2){
     margin: 0 auto;
     line-height: 1.8;
     text-align: justify;
-    gap: 30px  ;
+    gap: 3vh  ;
+}
+#Jamaica img{
+    width: 320vw;
+    height: 75vh;
+    border-radius: 20px;
+    
+    
+  
+}
+#Jamaica Div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: justify;
+    
+}
+#Bahamas img{
+      width: 65vw;
+    height: 65vh;
+    margin: 2.5vw;
+    border-radius: 20px;
+}
+#Bahamas{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: justify;
+    gap: 3vh  ;
+}
+
+#Saint img{
+    width: 35vw;
+    height: 70vh;
+    border-radius: 20px;
+    
+    
+  
+}
+#Saint Div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: justify;
+    
+}
+.Img{
+     width: 75vw;
+    height: 75vh;
+    border-radius: 20px;
+    
 }
