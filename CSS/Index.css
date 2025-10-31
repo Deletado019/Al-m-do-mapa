@@ -114,88 +114,49 @@ header nav a:hover {
 section:nth-of-type(n+2){
     margin-top: 10vh;
 }
+
 #Container{
     width: 80vw;
     margin: 0 auto;
 }
-#Punta-Cana img{
-   
-}
-#Punta-Cana p{
+.lugar-detalhado{
+    display: flex;
     width: 100%;
-
-}
-#Punta-Cana Div{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 1.8;
-    text-align: justify;
-}
-#Aruba img{
-      width: 75vw;
-    height: 75vh;
-    margin: 2.5vw;
-    border-radius: 20px;
-}
-#Aruba{
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    line-height: 1.8;
-    text-align: justify;
-    gap: 3vh  ;
-}
-#Jamaica img{
-    width: 320vw;
-    height: 75vh;
-    border-radius: 20px;
-    
-    
-  
-}
-#Jamaica Div{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 1.8;
-    text-align: justify;
-    
-}
-#Bahamas img{
-      width: 65vw;
-    height: 65vh;
-    margin: 2.5vw;
-    border-radius: 20px;
-}
-#Bahamas{
-    display: flex;
-    width: 85%;
-    margin: 0 auto;
-    line-height: 1.8;
-    text-align: justify;
-    gap: 3vh  ;
+    margin-top: 2vh;
 }
 
-#Saint img{
-    width: 35vw;
-    height: 70vh;
-    border-radius: 20px;
-    
-    
-  
+.i{
+    width: 40%;
 }
-#Saint Div{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 1.8;
-    text-align: justify;
+
+.texto-detalhado{
+    width: 60%;
+}
+
+.img-detalhado img{
+    
+    object-fit: cover;
+    border-radius: 15px;
+    max-height: 60vh    ;
+    width: 80vh;
+    height: 80vh;
     
 }
-.Img{
-     width: 75vw;
-    height: 75vh;
+
+.img-justificar{
+    margin-left: 15vh;
+}
+.espacamento-topo{
+    margin-top: 8vh;
+}
+.arredondar{
     border-radius: 20px;
+    overflow: hidden;
+}
+.margem-esquerda{
+    margin-left: 5vh;
     
+}
+.margem-direita{
+    margin-right: 5vh;
 }

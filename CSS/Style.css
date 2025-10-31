@@ -1,0 +1,135 @@
+*{
+     font-family: "fonte_padrão";
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    /* background-color: gray;  */
+    gap: 20px;
+    justify-content: space-around;
+    font-size: 18px;
+
+}
+
+#div-banner {
+    height: 400px;
+}
+
+#img_banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: "fonte_padrão";
+    src: url("../Fonts/Ananda\ Personal\ Use.ttf");
+}
+
+#lista_menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+#lista_menu li a:hover {
+    background: rgb(255, 204, 0);
+    color: #000000;
+    color: #000000;
+    font-weight: bold;
+}
+
+#section_lugares {
+    text-align: center;
+}
+
+#lugares{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+   justify-content: center;
+ 
+}
+
+#section_lugares{
+    margin-top: 70px;
+}
+
+#lugares img{
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+    
+}
+
+#lugares img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.cor-laranja{
+    color: orangered; 
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.justificar{
+    text-align: justify;  
+} 
+
+#lugares-visitar ul{
+    display: flex;
+}
+
+.espacamento-topo{
+    margin-top: 8vh;
+}
+
+#conteiner{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.lugar-detalhado{
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.i{
+    width: 50%;
+}
+
+.texto-detalhado{
+    width: 50%;
+}
+
+.img-detalhado img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+    height: 70vh;
+    
+}
+
+.img-justificar{
+    margin-left: 10vh;
+}
+
+
+
+
+
+
+
+
+
