@@ -87,6 +87,7 @@ header nav a:hover {
 }
 .centralizar{
     text-align: center;
+    align-items: center;
 
 }
 .justificar{
@@ -142,6 +143,15 @@ section:nth-of-type(n+2){
     height: 80vh;
     
 }
+.img-detalhado2 img{
+    
+    object-fit: cover;
+    border-radius: 15px;
+    max-height: 60vh    ;
+    width: 40vh;
+    height: 40vh;
+    
+}
 
 .img-justificar{
     margin-left: 15vh;
@@ -159,4 +169,70 @@ section:nth-of-type(n+2){
 }
 .margem-direita{
     margin-right: 5vh;
+}
+.Card{
+    border: 2px dotted;
+    padding: 15px 50px;
+    border-radius: 10px;
+    color: orange;
+    width: 25vw;
+    
+}
+
+#Informaçoes-extras{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+  
+}
+#Informaçoes-extras h5{
+    color: #000;
+    font-size: 1rem;
+
+}
+#Informaçoes-extras h2{
+    
+    font-size: 2rem;
+
+}
+#Informaçoes-extras h3{
+    font-size: 1.5rem;
+}
+
+#conheca-lugar h2{
+    font-size: 2rem;
+}
+#conheca-lugar iframe{
+    width:  75vw;
+    height: 75vh;
+}
+#copy{
+    background: #000;
+    color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+   
+}
+body{
+    margin: 0;
+    
+}
+#como-chegar h2{
+    font-size: 2rem;
+}
+#como-chegar iframe{
+    width: 75vw;
+    height: 75vh;
+}
+.galeria-fotos {   
+    width: 60vw;
+    margin: auto;
+}
+#Categorias-caribe{
+   
+}
+#Categorias-caribe div{
+margin: auto;
+   
 }
