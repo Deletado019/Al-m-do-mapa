@@ -1,7 +1,7 @@
 * {
     font-family: "ROBOTO";
     box-sizing: border-box;
-        
+
 }
 
 header {
@@ -53,6 +53,7 @@ header nav a:hover {
 
 
 #div_lugares {
+
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
@@ -64,175 +65,275 @@ header nav a:hover {
     transition: transform 0.3s ease;
     border-radius: 10px;
 }
- 
-#div_lugares img:hover{
+
+#div_lugares img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 #Informaçoes_gerais ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     font-size: 1.2rem;
 }
-.cor-laranja{
+
+.cor-laranja {
     color: orangered;
 }
-#sobre{
-    
+
+#sobre {}
+
+#Sobre h2 {
+    color: orangered;
+
 }
-#Sobre h2{
-    color: orangered ;
-    
-}
-.centralizar{
+
+.centralizar {
     text-align: center;
     align-items: center;
 
 }
-.justificar{
+
+.justificar {
     text-align: justify;
- 
+
 }
-#Lugares-visitar{
+
+#Lugares-visitar {
     font-size: 1.5rem;
 }
-#Lugares-visitar ul{
+
+#Lugares-visitar ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     font-size: 2rem;
-   
+
     margin: 0 auto;
 
 }
-#Lugares-visitar a{
+
+#Lugares-visitar a {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-    
-}   
-section:nth-of-type(n+2){
+
+}
+
+section:nth-of-type(n+2) {
     margin-top: 10vh;
 }
 
-#Container{
+#Container {
     width: 80vw;
     margin: 0 auto;
 }
-.lugar-detalhado{
+
+.lugar-detalhado {
     display: flex;
     width: 100%;
     margin-top: 2vh;
 }
 
-.i{
+.i {
     width: 40%;
 }
 
-.texto-detalhado{
+.texto-detalhado {
     width: 60%;
 }
 
-.img-detalhado img{
-    
+.img-detalhado img {
+
     object-fit: cover;
     border-radius: 15px;
-    max-height: 60vh    ;
+    max-height: 60vh;
     width: 80vh;
     height: 80vh;
-    
-}
-.img-detalhado2 img{
-    
-    object-fit: cover;
-    border-radius: 15px;
-    max-height: 60vh    ;
-    width: 40vh;
-    height: 40vh;
-    
+
 }
 
-.img-justificar{
+.img-detalhado2 img {
+
+    object-fit: cover;
+    border-radius: 15px;
+    max-height: 60vh;
+    width: 40vh;
+    height: 40vh;
+
+}
+
+.img-justificar {
     margin-left: 15vh;
 }
-.espacamento-topo{
+
+.espacamento-topo {
     margin-top: 8vh;
 }
-.arredondar{
+
+.arredondar {
     border-radius: 20px;
     overflow: hidden;
 }
-.margem-esquerda{
+
+.margem-esquerda {
     margin-left: 5vh;
-    
+
 }
-.margem-direita{
+
+.margem-direita {
     margin-right: 5vh;
 }
-.Card{
+
+.Card {
     border: 2px dotted;
     padding: 15px 50px;
     border-radius: 10px;
     color: orange;
     width: 25vw;
-    
+
 }
 
-#Informaçoes-extras{
+#Informaçoes-extras {
     display: flex;
     gap: 5vw;
     justify-content: center;
-  
+
 }
-#Informaçoes-extras h5{
+
+#Informaçoes-extras h5 {
     color: #000;
     font-size: 1rem;
 
 }
-#Informaçoes-extras h2{
-    
+
+#Informaçoes-extras h2 {
+
     font-size: 2rem;
 
 }
-#Informaçoes-extras h3{
+
+#Informaçoes-extras h3 {
     font-size: 1.5rem;
 }
 
-#conheca-lugar h2{
+#conheca-lugar h2 {
     font-size: 2rem;
 }
-#conheca-lugar iframe{
-    width:  75vw;
+
+#conheca-lugar iframe {
+    width: 75vw;
     height: 75vh;
 }
-#copy{
+
+#copy {
     background: #000;
     color: white;
     padding-top: 5vh;
     padding-bottom: 5vh;
     text-align: center;
-   
+
 }
-body{
+
+body {
     margin: 0;
-    
+
 }
-#como-chegar h2{
+
+#como-chegar h2 {
     font-size: 2rem;
 }
-#como-chegar iframe{
+
+#como-chegar iframe {
     width: 75vw;
     height: 75vh;
 }
-.galeria-fotos {   
+
+.galeria-fotos {
     width: 60vw;
     margin: auto;
 }
-#Categorias-caribe{
+
+#Categorias-caribe {}
+
+#Categorias-caribe div {
+    margin: auto;
+
+}
+
+#Contato h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+#Informaçoes-Gerais {
+
+  
+
+}
+
+#Informaçoes-Gerais h5 {
+    font-size: 1.2rem;
+
+}
+
+#Informaçoes-Gerais p {
+    font-size: 1rem;
+}
+
+#Informaçoes-Gerais a {
+    text-decoration: none;
+    color: #000;
+}
+
+#div_principal h3 {
+    font-size: 1.5rem;
+   
+
+}
+#Div_principal{
+    width: 100%;
+    
+}
+#div_principal{
+  display:flex;
+  width: 80vw;
+  margin: auto;
+}
+#Informaçoes-Gerais{
+    width: 100% ;
+}
+
+#contato{
+    width: 100%;
    
 }
-#Categorias-caribe div{
-margin: auto;
+#Mensagem{
+    padding-bottom: 15vh;
+}
+#Limpar{
+   background: #9b2012 ;
+   color: white;
+  border-radius: 10px;
+   padding: 1.5vh;
+   font-size: 2vh; 
    
 }
+#Enviar{
+    
+     background: #028137 ;
+   color: white;
+   border-radius: 10px;
+   padding: 1.5vh;
+   font-size: 2vh;
+}
+
+input{
+   margin-top: 1vh;
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+
+
