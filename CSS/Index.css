@@ -327,13 +327,51 @@ body {
    border-radius: 10px;
    padding: 1.5vh;
    font-size: 2vh;
+   margin-top: 2vh;
 }
 
 input{
    margin-top: 1vh;
     width: 100%;
     margin-bottom: 1vh;
+}   
+#Mensagem{
+    width: 100%;
 }
+#contato button:hover{
+  transform: scale(1.03);
+    transition: 0,5s;
+    cursor: pointer;
+}
+textarea{
+     margin-top: 1vh;
+    width: 100%;
+    
+}
+input:required:invalid {
+  border: 2px solid red; 
+ 
+}
+input:required:valid {
+  border: 2px solid green;
+} 
+.input-cor-dinamica {
 
+  color: black;
+  border: 2px solid black;
+  transition: border-color 0.3s ease; 
+}
+.input-cor-dinamica:focus {
+  
+  border-color: #000; 
+  color: #000;        
+  outline: none;     
+}
+input{
+    height: 6vh;
+}
+textarea{
+    height: 20vh;
+}
 
 
